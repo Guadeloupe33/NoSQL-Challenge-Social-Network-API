@@ -5,9 +5,10 @@ const {
   createUser,
   updateUser,
   deleteUser,
-  addFriend,
-  deleteFriend,
 } = require("../../controllers/userController.js");
+
+// Import addFriend and deleteFriend from friendController.js
+const { addFriend, deleteFriend } = require("../../controllers/friendController.js");
 
 // Routes related to users
 
