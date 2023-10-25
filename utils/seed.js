@@ -6,27 +6,27 @@ const thoughtData = [
   {
     thoughtText: "Imagine a world where cats can talk and discuss their daily adventures...",
     username: "catlover123",
-    userId: "",
+    userId: "1",
   },
   {
     thoughtText: "What if we could fly without the need for airplanes or wings? How amazing would that be?",
     username: "flightdreamer",
-    userId: "",
+    userId: "2",
   },
   {
     thoughtText: "In a parallel universe, we might be having this conversation in a completely different language...",
     username: "multiverseexplorer",
-    userId: "",
+    userId: "3",
   },
   {
     thoughtText: "What if time travel was possible? I'd love to visit ancient civilizations and witness history firsthand.",
     username: "timetraveler2023",
-    userId: "",
+    userId: "4",
   },
   {
     thoughtText: "If trees could communicate, they'd have some fascinating stories to share about the changing seasons.",
     username: "naturelover",
-    userId: "",
+    userId: "5",
   },
 ];
 

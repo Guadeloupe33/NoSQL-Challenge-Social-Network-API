@@ -5,6 +5,8 @@ const routes = require("./routes");
 const cwd = process.cwd(); // Get the current working directory
 
 const PORT = 3001;
+const activity = "Your API Activity"; // Define the activity variable
+
 const app = express();
 
 // Middleware: Parse incoming requests with JSON payloads
