@@ -26,7 +26,7 @@ router.route("/:userId")
 // Routes related to managing friends for a specific user
 
 // Route: Add or delete a friend for a specific user
-router.route("/:userId/friends/:friendId")
+router.route("/:userId/friends")
   .post(addFriend)   // Add a new friend for the specified user
   .delete(deleteFriend); // Delete a friend for the specified user
 
